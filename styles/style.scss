@@ -497,7 +497,7 @@
         &__details {
           max-width: 668px;
           background: #333333;
-          min-height: 285px;
+          min-height: 280px;
           color: #fefefe;
           box-sizing: border-box;
           display: flex;
@@ -515,6 +515,48 @@
           }
         }
       }
+    }
+  }
+  .footer {
+    height: 271px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    flex-direction: column;
+    &__title {
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: "Josefin Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 26px;
+      letter-spacing: 3.36px;
+      text-transform: uppercase;
+      margin-bottom: 0px;
+    }
+    &__sub-title {
+      font-family: "Josefin Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      /* identical to box height, or 162% */
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 1.6px;
+
+      color: #ffffff;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 0px;
+      margin-top: 0px;
     }
   }
 }
