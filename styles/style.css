@@ -383,3 +383,8 @@
           justify-content: center;
   position: absolute;
 }
+.container .more-details-section-1 {
+  height: 700px;
+  width: 100%;
+  background-image: url("../Images/image 3.png");
+}
