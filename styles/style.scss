@@ -460,4 +460,61 @@
       }
     }
   }
+  .what-our-tourist-say {
+    background-image: url("../Images/image\ 5.png");
+    height: 731px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+
+    &__title {
+      width: 100%;
+      height: 26px;
+      font-family: "Aleo";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 26px;
+      /* identical to box height, or 72% */
+      color: #ffffff;
+      margin-bottom: 0px;
+    }
+    .what-our-tourist-say-content {
+      display: flex;
+      flex-direction: column;
+      max-width: 1110px;
+      min-width: 80%;
+      height: 90%;
+      justify-content: space-evenly;
+      .pic-introduction {
+        display: flex;
+
+        &__details {
+          max-width: 668px;
+          background: #333333;
+          min-height: 285px;
+          color: #fefefe;
+          box-sizing: border-box;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+
+          h4 {
+            font-family: "Josefin Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 26px;
+            margin-top: 20px;
+            margin-left: 50px;
+          }
+        }
+      }
+    }
+  }
 }
