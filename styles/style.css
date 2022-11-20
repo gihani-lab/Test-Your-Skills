@@ -372,16 +372,52 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
 }
-.container .how-it-works-section .how-it-works-section-content div {
+.container .how-it-works-section .how-it-works-section-content .icon {
   width: 33%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 161px;
+}
+.container .how-it-works-section .how-it-works-section-content .icon img {
+  width: 82px;
+  height: 82px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  z-index: 100;
+  padding: auto;
+  background: #333333;
+  padding: 10px;
+}
+.container .how-it-works-section .how-it-works-section-content .icon div {
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #e8e8e8;
+}
+.container .how-it-works-section .how-it-works-section-content .curve-shape {
   position: absolute;
+  top: 50px;
 }
 .container .more-details-section-1 {
   height: 700px;

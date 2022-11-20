@@ -261,11 +261,40 @@
       display: flex;
       justify-content: space-around;
       align-items: center;
-      div {
+      position: relative;
+      .icon {
         width: 33%;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        height: 161px;
+
+        img {
+          width: 82px;
+          height: 82px;
+          box-sizing: border-box;
+          z-index: 100;
+          padding: auto;
+          background: #333333;
+          padding: 10px;
+        }
+        div {
+          font-family: "Aleo";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 36px;
+          line-height: 26px;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          color: #e8e8e8;
+        }
+      }
+
+      .curve-shape {
         position: absolute;
+        top: 50px;
       }
     }
   }
