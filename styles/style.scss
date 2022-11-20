@@ -522,15 +522,13 @@
       justify-content: space-evenly;
       .pic-introduction {
         display: flex;
-
+        &__image {
+          display: flex;
+        }
         &__details {
-          max-width: 668px;
           background: #333333;
-          min-height: 280px;
           color: #fefefe;
           box-sizing: border-box;
-          display: flex;
-          flex-direction: column;
           justify-content: flex-start;
 
           h4 {
@@ -540,7 +538,22 @@
             font-size: 20px;
             line-height: 26px;
             margin-top: 20px;
-            margin-left: 50px;
+            margin-left: 10px;
+            width: 150px;
+            height: 26px;
+            padding-left: 0px;
+          }
+          P {
+            font-family: "Josefin Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+
+            margin-left: 30px;
+            width: 581px;
+            height: 165px;
+            text-align: left;
           }
         }
       }
