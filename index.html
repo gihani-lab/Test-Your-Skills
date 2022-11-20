@@ -33,13 +33,40 @@
                         <i class="fa fa-search"></i>
                     </button>
                 </div>
+                <div class="scroll">
+                    <p>Scroll Down</p>
+                </div>
+                <div class="fav-icon"><i class="fa fa-angle-down"></i></div>
+
             </section>
-            <section></section>
-            <section></section>
-            <section></section>
-            <section></section>
+
+            <nav class="menu-bar">
+                <h5 class="menu-bar__title">Bhromaon</h5>
+                <ul class="menu-bar__links">
+                    <li>Who We Are</li>
+                    <li>What We Do</li>
+                    <li>Travel With Us</li>
+                    <li>Contact Us</li>
+
+                </ul>
+            </nav>
         </header>
+        <section></section>
+        <section></section>
+        <section></section>
+        <section></section>
     </container>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
 </body>
 
 </html>

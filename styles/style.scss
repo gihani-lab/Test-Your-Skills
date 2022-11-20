@@ -94,6 +94,69 @@
             top: 21px;
           }
         }
+        button:hover {
+          background-color: #002ead;
+          transition: 0.7s;
+        }
+      }
+      .scroll {
+        width: 123px;
+        height: 26px;
+        left: -8px;
+        top: -1px;
+        font-family: "Josefin Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 186% */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 2.8px;
+        color: #ffffff;
+      }
+      .fav-icon {
+        color: #ffffff;
+        height: 46px;
+      }
+    }
+    .menu-bar {
+      background-color: #5474fd;
+      height: 83px;
+      display: flex;
+      padding: 0 10%;
+      color: #ffffff;
+      text-transform: uppercase;
+      &__title {
+        font-family: "Josefin Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 26px;
+        /* identical to box height, or 108% */
+        display: flex;
+        align-items: center;
+        letter-spacing: 2.4px;
+        text-transform: uppercase;
+        color: #ffffff;
+        cursor: pointer;
+      }
+      &__links {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+        gap: 20px;
+        align-items: center;
+        li {
+          list-style-type: none;
+          font-family: "Aleo";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 26px;
+          cursor: pointer;
+        }
       }
     }
   }
