@@ -558,5 +558,11 @@
       margin-bottom: 0px;
       margin-top: 0px;
     }
+    &__links {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      padding-left: 0px;
+    }
   }
 }

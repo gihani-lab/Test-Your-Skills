@@ -768,3 +768,13 @@
   margin-bottom: 0px;
   margin-top: 0px;
 }
+.container .footer__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 25px;
+  padding-left: 0px;
+}
